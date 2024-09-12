@@ -12,7 +12,20 @@ h2{
     font-weight: bold;
     text-align: center;
     padding-bottom: 30px;
+ 
+
 }
+h2::after {
+    content: "";
+    display: block;
+    width: 70px; /* عرض الخط */
+    height: 3px; /* ارتفاع الخط */
+    background-color: #fb9919; /* لون الخط البرتقالي */
+    margin: 7px auto 0; /* مسافة بين النص والخط */
+    position: relative;
+    top: 2px;
+    
+  }
 
 
 
@@ -222,6 +235,17 @@ header nav .logo img{
    
     
 }
+#section2 h3::after {
+    content: "";
+    display: block;
+    width: 70px; /* عرض الخط */
+    height: 3px; /* ارتفاع الخط */
+    background-color: #fb9919; /* لون الخط البرتقالي */
+    margin: 7px auto 0; /* مسافة بين النص والخط */
+    position: relative;
+    top: 2px;
+    
+  }
 #section2 .use-container{
     display: flex;
     justify-content: space-evenly;
@@ -392,6 +416,7 @@ header nav .logo img{
     font-size:50px;
     font-weight:bold;
 }
+
 #section5 .container{
     display: flex;
     justify-content: space-around;
