@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     
 }
 
@@ -219,6 +220,9 @@ header nav .logo img{
    
     
 }
+
+
+
 
 #main-secton .mini-imgs img{
     filter: grayscale(100);
